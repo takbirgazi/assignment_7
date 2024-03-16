@@ -1,38 +1,22 @@
+import { useState } from "react";
+import FoodCard from "../FoodCard/FoodCard";
 import FoodTable from "./FoodTable";
+import { useEffect } from "react";
 
 export default function FoodProcess(){
+    const [cards, setCards] = useState([]);
+    useEffect(()=>{
+        fetch("recipes.json")
+        .then(res => res.json())
+        .then(data => setCards(data));
+    },[]);
     return(
-        <div className="flex gap-5">
-            <div className="grid grid-cols-2 gap-2">
-
-                <div className="card bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title">Shoesghf!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions justify-start">
-                        <button className="btn btn-primary">Buy Now</button>
-                        </div>
-                    </div>
-                </div>
-                <div className="card bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-                    <div className="card-body">
-                        <h2 className="card-title">Shoesghf!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div className="card-actions justify-start">
-                        <button className="btn btn-primary">Buy Now</button>
-                        </div>
-                    </div>
-                </div>
-                
-
-
-
-
+        <div className="flex gap-5 my-5">
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-2">
+                {cards.map(cards => <FoodCard key={cards.recipe_id} cardInfo={cards}></FoodCard>)}
             </div>
             {/* Right Side bar */}
-            <div>
+            <div className="w-[40%]">
                 <FoodTable></FoodTable>
             </div>
         </div>
