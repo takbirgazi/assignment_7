@@ -1,4 +1,5 @@
 import './App.css'
+import FoodProcess from './components/FoodProcess/FoodProcess'
 import Header from './components/Header/Header'
 import Heading from './components/Heading/Heading'
 import Hero from './components/Hero/Hero'
@@ -11,6 +12,7 @@ function App() {
         <Header></Header> 
         <Hero></Hero>
         <Heading></Heading>
+        <FoodProcess></FoodProcess>
       </div>
     </>
   )
