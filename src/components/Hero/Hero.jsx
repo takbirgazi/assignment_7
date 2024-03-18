@@ -1,4 +1,4 @@
-import heroBg from '../../assets/images/rectangle1.png';
+import heroBg from '../../assets/image/hero-bg.png';
 export default function Hero(){
     return(
         <div className="hero bg-cover bg-center h-[500px] rounded-xl mt-3" style={{backgroundImage: `url(${heroBg})`}}>

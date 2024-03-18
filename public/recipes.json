@@ -11,7 +11,7 @@
       ],
       "preparing_time": "45 minutes",
       "calories": "400 kcal",
-      "recipe_image": "chicken_parmesan.jpg"
+      "recipe_image": "https://i.ibb.co/rmCWWwy/images.jpg"
     },
     {
       "recipe_id": "2",
@@ -25,7 +25,7 @@
       ],
       "preparing_time": "30 minutes",
       "calories": "350 kcal",
-      "recipe_image": "mushroom_risotto.jpg"
+      "recipe_image": "https://i.ibb.co/fvQ9B39/download-2.jpg"
     },
     {
       "recipe_id": "3",
@@ -39,7 +39,7 @@
       ],
       "preparing_time": "35 minutes",
       "calories": "500 kcal",
-      "recipe_image": "chicken_alfredo_pasta.jpg"
+      "recipe_image": "https://i.ibb.co/fvwBgkL/download-1.jpg"
     },
     {
       "recipe_id": "4",
@@ -53,7 +53,7 @@
       ],
       "preparing_time": "15 minutes",
       "calories": "150 kcal",
-      "recipe_image": "leafy_green_salad.jpg"
+      "recipe_image": "https://i.ibb.co/jJr12vq/download.jpg"
     },
     {
       "recipe_id": "5",
@@ -67,7 +67,7 @@
       ],
       "preparing_time": "40 minutes",
       "calories": "450 kcal",
-      "recipe_image": "bbq_chicken_pizza.jpg"
+      "recipe_image": "https://i.ibb.co/5MDSQVd/download.jpg"
     },
     {
       "recipe_id": "6",
@@ -81,7 +81,7 @@
       ],
       "preparing_time": "50 minutes",
       "calories": "300 kcal",
-      "recipe_image": "creamy_chicken_mushroom_soup.jpg"
+      "recipe_image": "https://i.ibb.co/NtxDJq5/Beef-Burger-1.jpg"
     }
   ]
   
