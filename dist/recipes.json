@@ -1,0 +1,87 @@
+[
+    {
+      "recipe_id": "1",
+      "recipe_name": "Chicken Parmesan",
+      "short_description": "Classic Italian favorite with breaded chicken topped with marinara sauce and melted cheese.",
+      "ingredients": [
+        "500g chicken",
+        "120ml sauce",
+        "200g basil leaf",
+        "400g mushroom"
+      ],
+      "preparing_time": "45 minutes",
+      "calories": "400 kcal",
+      "recipe_image": "https://i.ibb.co/rmCWWwy/images.jpg"
+    },
+    {
+      "recipe_id": "2",
+      "recipe_name": "Mushroom Risotto",
+      "short_description": "Creamy Italian rice dish cooked with mushrooms, garlic, and Parmesan cheese.",
+      "ingredients": [
+        "400g mushroom",
+        "300g rice",
+        "120ml sauce",
+        "1L broth"
+      ],
+      "preparing_time": "30 minutes",
+      "calories": "350 kcal",
+      "recipe_image": "https://i.ibb.co/fvQ9B39/download-2.jpg"
+    },
+    {
+      "recipe_id": "3",
+      "recipe_name": "Chicken Alfredo Pasta",
+      "short_description": "Rich and creamy pasta dish with tender chicken, Alfredo sauce, and pasta.",
+      "ingredients": [
+        "600g chicken",
+        "150ml sauce",
+        "400g mushroom",
+        "400g pasta"
+      ],
+      "preparing_time": "35 minutes",
+      "calories": "500 kcal",
+      "recipe_image": "https://i.ibb.co/fvwBgkL/download-1.jpg"
+    },
+    {
+      "recipe_id": "4",
+      "recipe_name": "Leafy Green Salad",
+      "short_description": "Fresh salad made with mixed greens, cherry tomatoes, cucumber, and vinaigrette.",
+      "ingredients": [
+        "300g leaf",
+        "200g tomato",
+        "400g pasta",
+        "150g cucumber"
+      ],
+      "preparing_time": "15 minutes",
+      "calories": "150 kcal",
+      "recipe_image": "https://i.ibb.co/jJr12vq/download.jpg"
+    },
+    {
+      "recipe_id": "5",
+      "recipe_name": "BBQ Chicken Pizza",
+      "short_description": "Homemade pizza topped with barbecue sauce, chicken, red onions, and cilantro.",
+      "ingredients": [
+        "400g chicken",
+        "100ml sauce",
+        "400g pasta",
+        "150g onion"
+      ],
+      "preparing_time": "40 minutes",
+      "calories": "450 kcal",
+      "recipe_image": "https://i.ibb.co/5MDSQVd/download.jpg"
+    },
+    {
+      "recipe_id": "6",
+      "recipe_name": "Creamy Chicken and Mushroom Soup",
+      "short_description": "Hearty soup made with tender chicken, mushrooms, vegetables, and creamy broth.",
+      "ingredients": [
+        "500g chicken",
+        "400g mushroom",
+        "300g vegetable",
+        "1L broth"
+      ],
+      "preparing_time": "50 minutes",
+      "calories": "300 kcal",
+      "recipe_image": "https://i.ibb.co/NtxDJq5/Beef-Burger-1.jpg"
+    }
+  ]
+  
